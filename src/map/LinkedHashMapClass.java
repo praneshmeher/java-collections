@@ -17,7 +17,6 @@ public class LinkedHashMapClass {
 		map.put(e1, "Barclays");
 		System.out.println(map);
 		
-		
 	}
 
 }

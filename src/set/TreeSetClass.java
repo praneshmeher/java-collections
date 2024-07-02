@@ -9,8 +9,8 @@ import utility.Employee;
 public class TreeSetClass {
 
 	public static void main(String[] args) {
-		Set<Employee> set = new TreeSet<>();
 		
+		Set<Employee> set = new TreeSet<>();
 		Employee e1 = new Employee(1,"Pranesh");
 		Employee e2 = new Employee(2,"Ravindra");
 		

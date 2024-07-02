@@ -18,10 +18,15 @@ public class HashMapClass {
 		Employee e1 = new Employee(1,"Pranesh");
 		
 		map.put(e1, "Barclays");
-		System.out.println(map.get(e1));
+		System.out.println(map.get(e1));	// Barclays
 		
 		e1.setName("Ganesh");
-		System.out.println(map.get(e1));
+		System.out.println(map.get(e1));	// null
+		
+		Map<Integer, Integer> map1= new HashMap<>();
+		map1.put(3, 0);
+		map1.put(3, 1);
+		System.out.println(map1);			// {3=1}
 		
 	}
 
