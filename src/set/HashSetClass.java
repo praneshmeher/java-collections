@@ -18,6 +18,13 @@ public class HashSetClass {
 		e1.setName("Ganesh");
 		System.out.println(set.contains(e1));
 		
+		Set<Integer> set1 = new HashSet<>();
+		set1.add(1);
+		set1.add(1);
+		set1.add(2);
+		set1.add(2);
+		System.out.println(set1);
+		
 	}
 
 }

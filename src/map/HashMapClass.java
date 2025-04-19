@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 
@@ -27,6 +28,18 @@ public class HashMapClass {
 		map1.put(3, 0);
 		map1.put(3, 1);
 		System.out.println(map1);			// {3=1}
+		
+		for(Entry<Integer, Integer> e:map1.entrySet()) {
+			System.out.println(e);
+		}
+		
+		for(Integer v: map1.values()) {
+			System.out.println(v);
+		}
+		
+		for(Integer k:map1.keySet()) {
+			System.out.println(k);
+		}
 		
 	}
 
